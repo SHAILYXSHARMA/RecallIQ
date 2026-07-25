@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "RecallIQ",
+    "version": "0.1.0",
+    "description": "AI-powered semantic search over your browsing history.",
+    "permissions": [
+        "tabs",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://localhost:3000/*",
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/icon128.png"
+    }
+}

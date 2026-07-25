@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+ 
+# Database (contains your local browsing data)
+backend/recalliq.db
+ 
+# Logs
+*.log
+ 
+# OS files
+.DS_Store
+Thumbs.db
