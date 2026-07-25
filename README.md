@@ -102,4 +102,4 @@ recalliq_mvp/
 
 ## License
 
-MIT — do whatever you'd like with this.
+Sonal Sharma — do whatever you'd like with this.
